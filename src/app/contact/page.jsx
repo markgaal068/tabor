@@ -1,6 +1,6 @@
 const ContactPage = () => {
     return (
-        <div className=''>Navbar</div>
+        <div className=''></div>
     )
 }
 
