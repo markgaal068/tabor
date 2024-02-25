@@ -14,8 +14,11 @@ const links = [
 
 
 const Navbar = () => {
+    // NAVBAR OPEN CLOSED STATEMENTS
     const [open, setOpen] = useState(false)
 
+
+    // FRAMER MOTION COMPONENTS
     const topVariants={
         closed:{
             rotate:0,
