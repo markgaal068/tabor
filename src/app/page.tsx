@@ -21,7 +21,7 @@ function Homepage(){
         {/* BUTTONS */}
         <div className="w-full flex gap-4">
           <button className="p-4 rounded lg ring-1 ring-green-500 bg-green-500 text-white">Galéria</button>
-          <button className="p-4 rounded lg ring-1 ring-green-500">Elérhetőség</button>
+          <button className="p-4 rounded lg ring-1 ring-green-500">Kontakt</button>
         </div>
       </div>
     </div>
