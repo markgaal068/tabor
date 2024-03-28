@@ -9,7 +9,7 @@ import {motion} from "framer-motion";
 const links = [
     { url: "/", title: "Főoldal"},
     { url: "/about", title: "Rólam"},
-    { url: "/gallery", title: "Galéria"},
+    { url: "/events", title: "Események"},
     { url: "/contact", title: "Kontakt"},
 ];
 
@@ -87,7 +87,7 @@ const Navbar = () => {
             <div className="md:hidden lg:flex xl:justify-center">
                 <Link href="/" className="text-sm bg-green-500 rounded-md p-1 font-semibold flex items-center justify-center">
                     <span className="text-white mr-1">Szabó</span>
-                    <span className="w-12 h-8 rounded bg-yellow-100 text-black flex items-center justify-center">Andi</span>
+                    <span className="w-12 h-8 rounded bg-green-50 text-black flex items-center justify-center">Andi</span>
                 </Link>
             </div>
             {/* SOCIAL MEDIA LINKEK IKONOKKAL */}
