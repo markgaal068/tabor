@@ -10,7 +10,7 @@ const links = [
     { url: "/", title: "Főoldal"},
     { url: "/about", title: "Rólam"},
     { url: "/events", title: "Események"},
-    { url: "/contact", title: "Kontakt"},
+    { url: "/contact", title: "Kapcsolat"},
 ];
 
 

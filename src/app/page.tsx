@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import {motion} from "framer-motion"
+import Link from "next/link";
 
 
 function Homepage(){
@@ -20,8 +21,8 @@ function Homepage(){
         <p className="md:text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure harum ipsum mollitia dolores reprehenderit consequuntur consequatur quos eius beatae voluptas.</p>
         {/* BUTTONS */}
         <div className="w-full flex gap-4">
-          <button className="p-4 rounded lg ring-1 ring-green-500 bg-green-500 text-white">Galéria</button>
-          <button className="p-4 rounded lg ring-1 ring-green-500">Kontakt</button>
+          <Link href="/events"><button className="p-4 rounded lg ring-1 ring-green-500 bg-green-500 text-white">Események</button></Link>
+          <Link href="/contact"><button className="p-4 rounded lg ring-1 ring-green-500">Kapcsolat</button></Link>
         </div>
       </div>
     </div>

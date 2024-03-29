@@ -23,7 +23,8 @@ const AboutPage = () => {
                         <span className="italic">Lorem ipsum dolor sit amet consectetur.</span>
                         {/* BIO SIGN */}
                         <div className="self-end">
-                            <svg
+                            Andi - ide majd rendes szignó
+                            {/* <svg
                                 width="185"
                                 height="77"
                                 viewBox="0 0 370 114"
@@ -35,7 +36,7 @@ const AboutPage = () => {
                                     stroke="black"
                                     strokeWidth="2"
                                 />
-                            </svg>
+                            </svg> */}
                         </div>
 
                     </div>

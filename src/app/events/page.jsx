@@ -11,33 +11,33 @@ const items = [
     {
         id: 1,
         color: "from-yellow-200 to-orange-300",
-        title: "React Commerce",
+        title: "Lorem, ipsum.",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+        img: "/taborkep.png",
         link: "https://lama.dev",
     },
     {
         id: 2,
         color: "from-orange-300 to-red-300",
-        title: "Next.js Medium Blog",
+        title: "Lorem, ipsum.",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+        img: "/taborkep.png",
         link: "https://lama.dev",
     },
     {
         id: 3,
         color: "from-red-300 to-purple-300",
-        title: "Vanilla Book App",
+        title: "Lorem, ipsum.",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+        img: "/taborkep.png",
         link: "https://lama.dev",
     },
     {
         id: 4,
         color: "from-purple-300 to-green-200",
-        title: "Spotify Music App",
+        title: "Lorem, ipsum.",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        img: "/taborkep.png",
         link: "https://lama.dev",
     },
 ];
@@ -53,7 +53,7 @@ const EventsPage = () => {
         <motion.div className="h-full" initial={{ y: "-200vh" }} animate={{ y: "0%" }} transition={{ duration: 1 }}>
 
             <div className="h-[600vh]" ref={ref}>
-                <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-9xl text-center "><h1 className="font-black italic">Közelgő Táborok</h1></div>
+                <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center "><h1 className="font-semibold">Közelgő Táborok</h1></div>
 
                 <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
 
@@ -79,7 +79,7 @@ const EventsPage = () => {
                 </div>
             </div>
             <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-yellow-50 to-green-100">
-                <h1 className="text-8xl font-bold">Legyél Te is a táborozónk!</h1>
+                <h1 className="text-6xl font-bold">Legyél Te is a táborozónk!</h1>
                 <div className="relative">
                     <motion.svg animate={{ rotate: 360 }} transition={{ duration: 8, ease: "linear", repeat: Infinity }} viewBox="0 0 300 300" className="w-64 h-64 md:w-[500px] md:h-[500px]">
                         <defs>
@@ -89,7 +89,7 @@ const EventsPage = () => {
                             <textPath xlinkHref="#circlePath" startOffset="10%" className="text-xl">Szabó Andrea Táboroztató</textPath>
                         </text>
                     </motion.svg>
-                    <Link href="/contact" className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center">Csatlakozz!</Link>
+                    <Link href="/contact" className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"><p className="text-xs md:text-base">Csatlakozz!</p></Link>
                 </div>
             </div>
 
