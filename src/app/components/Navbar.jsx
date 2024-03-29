@@ -6,6 +6,7 @@ import Image from "next/image";
 import NavLink from "./NavLink";
 import {motion} from "framer-motion";
 
+
 const links = [
     { url: "/", title: "Főoldal"},
     { url: "/about", title: "Rólam"},

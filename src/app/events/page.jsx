@@ -71,7 +71,7 @@ const EventsPage = () => {
 
                                 <p className="w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]">{item.desc}</p>
 
-                                <Link href={item.link} className="flex justify-end"><button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">Info</button></Link>
+                                <Link href={item.link} className="flex justify-end"><button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded hover:bg-transparent hover:border hover:rounded hover:border-white hover:scale-105">Bővebben!</button></Link>
                             </div>
                         </div>
                         ))}

@@ -39,7 +39,9 @@ const AboutPage = () => {
                             </svg> */}
                         </div>
 
+
                     </div>
+
 
 
                     {/* SKILLS */}
@@ -146,13 +148,10 @@ const AboutPage = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-                    {/* SVG CONTAINER */}
-                    <div className="hidden lg:block w-1/3 sticky top-0 z-50 xl-1/2">
-
-                    </div>
+                </div>
+                {/* IMG CONTAINER */}
+                <div className="hidden lg:block w-1/3 top-0 z-50 xl-1/2 mr-[40px]">
+                    <img src="/hero.png"></img>
                 </div>
             </div>
 
